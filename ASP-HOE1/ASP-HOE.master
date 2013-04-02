@@ -1,0 +1,40 @@
+﻿<%@ Master Language="VB" CodeFile="ASP-HOE.master.vb" Inherits="ASP_HOE" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <link href='http://fonts.googleapis.com/css?family=Noto+Serif|Ubuntu:400,700' rel='stylesheet' type='text/css'>
+    <link href="css/main.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div id="content">
+        <nav>
+            <asp:Menu ID="Menu1" runat="server" DataSourceID="SiteMapDataSource1"></asp:Menu>
+            <asp:SiteMapDataSource ID="SiteMapDataSource1" runat="server" />
+        </nav>
+
+        <div id="main">
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        
+        </asp:ContentPlaceHolder>
+        </div>
+
+        <footer>
+            <asp:SiteMapPath ID="SiteMapPath1" runat="server">
+                <PathSeparatorTemplate>
+                    |
+                </PathSeparatorTemplate>
+            </asp:SiteMapPath>
+        </footer>
+
+    </div>
+        
+    </form>
+</body>
+</html>
