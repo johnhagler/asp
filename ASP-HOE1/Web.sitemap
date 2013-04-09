@@ -4,5 +4,7 @@
         <siteMapNode url="Cars.aspx" title="Cars"  description="" />
         <siteMapNode url="Trucks.aspx" title="Trucks"  description="" />
 		<siteMapNode url="DropDown.aspx" title="Drop Downs"  description="" />
+		<siteMapNode url="Themes.aspx" title="Theme"  description="" />
+		<siteMapNode url="Ajax.aspx" title="Ajax"  description="" />
     </siteMapNode>
 </siteMap>
